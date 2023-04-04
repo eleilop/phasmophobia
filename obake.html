@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Espíritu</title>
+    <link rel="stylesheet" href="./css/fantasmas.css">
+    <link rel="shortcut icon" href="./images/favicon.jpg" type="image/x-icon">
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="./js/funciones.js"></script>
+</head>
+<body>
+    <div id="wrapper">
+        <nav>
+            <div class="topnav" id="myTopnav">
+                <a href="./index.html">PHASMOPHOBIA</a>
+                <a href="#">HOME</a>
+
+                <!-- El último botón es especial, se desactiva su href
+                para que no mande a ningún sitio. A cambio, es manipulado
+                por un JS que hace que se oculte cuando los demás botones estén
+                a la vista y se muestre cuando los botones se oculten. Aparece
+                solo cuando la pantalla sea pequeña.-->
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                  <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </nav>
+        <div id="contenido">
+            <h1>Obake</h1>
+            <img src="./images/Fantasma.jpg" alt="Fantasma">
+            <p>- Siempre estará la evidencia de Huellas Dactilares, hay un 75% de probabilidad de que deje huellas.</p>
+            <p>- Puede dejar huellas dactilares de 6 dedos en las puertas y de 2 dedos en las luces.</p>
+            <p>- Sus huellas duran la mitad de lo normal.</p>
+            <p>- Cambia de modelo de fantasma una vez en cada cacería.</p>
+        <div id="Limpiar"></div>
+        </div>
+    </div>
+</body>
+</html>
